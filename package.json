@@ -1,0 +1,27 @@
+{
+  "name": "nomad",
+  "version": "1.0.0",
+  "description": "clone for me",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tak-codes/clone_you.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "TAK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tak-codes/clone_you/issues"
+  },
+  "homepage": "https://github.com/tak-codes/clone_you#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
+}
